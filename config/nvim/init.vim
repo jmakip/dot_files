@@ -137,3 +137,6 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+"Nvim terminal 
+tnoremap <Esc> <C-\><C-n>
