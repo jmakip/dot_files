@@ -138,5 +138,8 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-"Nvim terminal 
+"Nvim terminal
 tnoremap <Esc> <C-\><C-n>
+
+"Jump to def with gd
+nnoremap gd <C-]>
