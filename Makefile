@@ -6,7 +6,7 @@ update:
 	mkdir -p ~/.config/i3/
 	mkdir -p ~/.config/termite/
 
-#could change these to symlinks
+#could change these to symlinks or use rsync
 	cp -R $(PWD)/config/nvim/. ~/.config/nvim/
 	cp -R $(PWD)/config/alacritty/. ~/.config/alacritty/
 	cp -R $(PWD)/config/i3/. ~/.config/i3/
