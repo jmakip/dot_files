@@ -95,6 +95,7 @@ let g:go_gocode_propose_source = 1
 let g:go_modifytags_transform = 'camelcase'
 let g:go_fold_enable = []
 
+
 "Indent by filetype
 "==========================================================
 augroup filetypedetect
@@ -108,6 +109,7 @@ augroup filetypedetect
   autocmd FileType json setlocal expandtab shiftwidth=2 tabstop=2
 "toybox has weird 2 space tabs 
   autocmd FileType c setlocal expandtab shiftwidth=2 tabstop=2
+  autocmd FileType cpp setlocal expandtab shiftwidth=4 tabstop=4
 augroup END
 
 "Show git branch on statusline
@@ -133,13 +135,12 @@ let mapleader = ","
 " No arrow keys --- force yourself to use the home row
 nnoremap <up> <nop>
 nnoremap <down> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
 
 "Nvim terminal
 tnoremap <Esc> <C-\><C-n>
 
-"Jump to def with gd
+
+"jump to def with gd
 nnoremap gd <C-]>
