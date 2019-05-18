@@ -11,6 +11,7 @@ update:
 	cp -R $(PWD)/config/alacritty/. ~/.config/alacritty/
 	cp -R $(PWD)/config/i3/. ~/.config/i3/
 	cp -R $(PWD)/config/termite/. ~/.config/termite/
+	cp $(PWD)/config/tmux/.tmux.conf ~/.tmux.conf
 
 
 clean:
